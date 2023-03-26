@@ -1,0 +1,5 @@
+I learnt many concepts in this chapter:
+In python i leaarn  Functions,
+In python i leaarn  loops,
+In python i leaarn  dataTypes,
+and alot more......
