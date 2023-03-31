@@ -51,7 +51,7 @@ class ElectricCar(Car):
         print("This car don't need gas tank!")
 
 
-tesla = ElectricCar('tesla', 'model s', 2016)
+tesla = ElectricCar('tesla', 'S', 2022)
 tesla.battery.get_range()
 
 tesla.battery.upgrade_battery()
