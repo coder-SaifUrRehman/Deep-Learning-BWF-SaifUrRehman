@@ -27,7 +27,7 @@ class Battery:
         self.battery_size = battery_size
 
     def describe_battery(self):
-        print("This car has a " + str(self.battery_size) + "-kWh battery.")
+        print("This car has " + str(self.battery_size) + "kWh battery.")
 
     def get_range(self):
         if self.battery_size == 70:
@@ -35,7 +35,7 @@ class Battery:
         elif self.battery_size == 85:
             range = 270
 
-        print("This car can go about approximatley. " + str(range) + " miles on a full charge.")
+        print(" Car can go approximatley. " + str(range) + " miles on full charge.")
 
     def upgrade_battery(self):
         if self.battery_size != 85:
@@ -48,11 +48,11 @@ class ElectricCar(Car):
         self.battery = Battery()
 
     def fill_gas_tank(self):
-        print("This car doesn't need a gas tank!")
+        print("This car don't need gas tank!")
 
 
-my_tesla = ElectricCar('tesla', 'model s', 2016)
-my_tesla.battery.get_range()
+tesla = ElectricCar('tesla', 'model s', 2016)
+tesla.battery.get_range()
 
-my_tesla.battery.upgrade_battery()
-my_tesla.battery.get_range()
+tesla.battery.upgrade_battery()
+tesla.battery.get_range()
